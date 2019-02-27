@@ -1,6 +1,6 @@
 {
   "name": "@cosoft/ngx",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Ngx library for handy stuff",
   "author": "Martijn van der Corput",
   "keywords": [
@@ -22,5 +22,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mvdcorput/cs-ngx.git"   
-  }
+  },
+  "homepage": "https://www.linkedin.com/in/mvdcorput/"
 }
