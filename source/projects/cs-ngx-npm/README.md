@@ -54,7 +54,6 @@ import { JsonDateHttpInterceptor } from '@cosoft/ngx';
   declarations: [ /* ... */ ],
   imports: [
     /* ... */
-    CsNgxModule
   ],
   providers: [
     /* ... */
