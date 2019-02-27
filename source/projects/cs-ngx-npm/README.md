@@ -6,9 +6,9 @@ Handy ngx stuff
 
 ## Contents
 
-- cs-ngx.module
--- cs-ripple directive
-- cs-json-data-http.interceptor 
+* cs-ngx.module
+  * ripple directive ([Named Link](https://embed.plnkr.co/XYwmPbCN6kUhGIhUczRg/ "demo"))
+* json date http interceptor
 
 ## Install cs-ngx in your angular application
 ```bash
