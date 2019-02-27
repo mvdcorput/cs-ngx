@@ -1,4 +1,4 @@
-##### Tested in Angular 7
+##### Tested in Angular 7.1.0
 
 # cs-ngx
 
