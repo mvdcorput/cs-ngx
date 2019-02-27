@@ -40,11 +40,13 @@ export class AppModule { /* ... */ }
 ```
 
 ## cs-ngx json date http interceptor
-This interceptor converts json dates to javascript Date objects
+If you use HttpClient from '@angular/common/http' in your data service then this interceptor will convert json dates to javascript Date objects. 
+
+It checks for content type 'application/json' http responses and uses regex to find dates using iso8601 format.
 
 ### Add interceptor to your ngx module
 ```typescript
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { JsonDateHttpInterceptor } from '@cosoft/ngx';
 
 // ...
@@ -54,6 +56,7 @@ import { JsonDateHttpInterceptor } from '@cosoft/ngx';
   declarations: [ /* ... */ ],
   imports: [
     /* ... */
+    HttpClientModule
   ],
   providers: [
     /* ... */
