@@ -1,13 +1,15 @@
 {
   "name": "@cosoft/ngx",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Ngx library for handy stuff",
   "author": "Martijn van der Corput",
   "keywords": [
     "angular",
     "ngx",
-    "ripple",
     "directive",
+    "ripple",
+    "interceptor",
+    "json date",
     "effect",
     "css animation",
     "material"
