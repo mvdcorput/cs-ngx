@@ -1,3 +1,5 @@
+##### Tested in Angular 7
+
 # cs-ngx
 
 ## Contents
@@ -12,9 +14,31 @@
 npm start
 ```
 
-## cs-ngx project
+## cs-ngx module
 
 ### Install cs-ngx in your angular application root folder
 ```bash
-npm install cs-ngx --save
+npm install @cosoft/ngx --save
+```
+
+### Import cs-ngx module in your ngx project
+```typescript
+import { CsNgxModule } from '@cosoft/ngx';
+
+// ...
+
+@NgModule({
+  bootstrap: [ /* ... */ ],
+  declarations: [ /* ... */ ],
+  imports: [
+    /* ... */
+    CsNgxModule
+  ],
+})
+export class AppModule { /* ... */ }
+```
+
+## cs-ngx : cs-ripple directive
+```html
+<div cs-ripple>MENU ITEM</div>
 ```
