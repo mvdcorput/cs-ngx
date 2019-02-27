@@ -1,0 +1,24 @@
+{
+  "name": "@cosoft/ngx",
+  "version": "1.0.0",
+  "description": "Ngx library for handy stuff",
+  "author": "Martijn van der Corput",
+  "keywords": [
+    "angular",
+    "ngx",
+    "ripple",
+    "directive",
+    "effect",
+    "css animation",
+    "material"
+  ],
+  "license": "GNU GPLv3",
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvdcorput/cs-ngx.git"   
+  }
+}
