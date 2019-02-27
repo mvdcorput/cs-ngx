@@ -7,7 +7,7 @@ Handy ngx stuff
 ## Contents
 
 * cs-ngx.module
-  * ripple directive ([Named Link](https://embed.plnkr.co/XYwmPbCN6kUhGIhUczRg/ "demo"))
+  * ripple directive ([Plunker demo](https://embed.plnkr.co/XYwmPbCN6kUhGIhUczRg/ "Plunker demo of directive"))
 * json date http interceptor
 
 ## Install cs-ngx in your angular application
