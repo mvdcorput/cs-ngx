@@ -6,11 +6,12 @@ Handy ngx stuff
 
 ## Contents
 
+* npm install
 * cs-ngx.module
   * ripple directive ([Plunker demo](https://embed.plnkr.co/XYwmPbCN6kUhGIhUczRg/ "Plunker demo of directive"))
 * json date http interceptor
 
-## Install cs-ngx in your angular application
+## Npm install cs-ngx in your angular application
 ```bash
 npm install @cosoft/ngx --save
 ```
