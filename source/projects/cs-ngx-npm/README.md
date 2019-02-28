@@ -33,7 +33,7 @@ export class AppModule { /* ... */ }
 ```
 
 ## cs-ripple directive 
-#### To use this directive first import cs-ngx module
+#### To use this directive first import cs-ngx module ([Plunker demo](https://embed.plnkr.co/XYwmPbCN6kUhGIhUczRg/ "Plunker demo of directive"))
 
 ```html
 <div cs-ripple>MENU ITEM</div>
