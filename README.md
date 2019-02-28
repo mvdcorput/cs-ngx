@@ -39,7 +39,7 @@ export class AppModule { /* ... */ }
 <div cs-ripple>MENU ITEM</div>
 ```
 
-## cs-ngx json date http interceptor
+## json date http interceptor
 If you use HttpClient from '@angular/common/http' in your data service then this interceptor will convert json dates to javascript Date objects. 
 
 It checks for content type 'application/json' http responses and uses regex to find dates using iso8601 format.
