@@ -44,6 +44,8 @@ If you use HttpClient from '@angular/common/http' in your data service then this
 
 It checks for content type 'application/json' http responses and uses regex to find dates using iso8601 format.
 
+With this interceptor you don't have to convert json dates coming from (dotnet core) http responses anymore.
+
 ### Add interceptor to your ngx module
 ```typescript
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
