@@ -10,6 +10,7 @@ Handy ngx stuff
 * cs-ngx.module
   * ripple directive ([Plunker demo](https://embed.plnkr.co/XYwmPbCN6kUhGIhUczRg/ "Plunker demo of directive"))
 * json date http interceptor
+* jwt helpers
 
 ## Npm install cs-ngx in your angular application
 ```bash
@@ -53,7 +54,6 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { JsonDateHttpInterceptor } from '@cosoft/ngx';
 
 // ...
-
 @NgModule({
   bootstrap: [ /* ... */ ],
   declarations: [ /* ... */ ],
@@ -67,4 +67,39 @@ import { JsonDateHttpInterceptor } from '@cosoft/ngx';
   ]
 })
 export class AppModule { /* ... */ }
+```
+
+## jwt helpers
+Helper class for jwt related functionality
+
+### Use helpers in your component or service
+```typescript
+import { Component } from '@angular/core';
+import { JwtHelpers, IJwtToken  } from '@cosoft/ngx'
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+})
+export class AppComponent {
+  title = 'cs-ngx';
+  
+  jwtHelpers = new JwtHelpers();
+
+  constructor() {
+    const token = 'jwt token string';
+
+    // getJwtExpiration gets expiration date of jwt token as Date object
+    const expirationDate: Date = this.jwtHelpers.getJwtExpiration(token);
+
+    // checks if a given jwt token string is in correct jwt format
+    const isJwtToken: boolean = this.jwtHelpers.isJwtToken(token);
+
+    // gets object from jwt token string
+    const jwtTokenObject: IJwtToken = this.jwtHelpers.parseJwt(token);
+
+    debugger;
+  }
+}
 ```

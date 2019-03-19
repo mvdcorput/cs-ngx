@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { CsNgxModule } from 'projects/cs-ngx-npm/src/public_api';
+import { CsNgxModule } from './../../projects/cs-ngx-npm/src/public_api';
 
 @NgModule({
   declarations: [

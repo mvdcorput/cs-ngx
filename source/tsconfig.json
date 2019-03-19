@@ -17,14 +17,6 @@
     "lib": [
       "es2018",
       "dom"
-    ],
-    "paths": {
-      "cs-ripple": [
-        "dist/cs-ripple"
-      ],
-      "cs-ripple/*": [
-        "dist/cs-ripple/*"
-      ]
-    }
+    ]
   }
 }

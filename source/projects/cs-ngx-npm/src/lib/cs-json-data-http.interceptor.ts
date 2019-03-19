@@ -6,7 +6,7 @@ import { HttpRequest } from '@angular/common/http';
 import { HttpHandler } from '@angular/common/http';
 import { HttpEvent } from '@angular/common/http';
 
-import { convertJsonDates } from './cs-helpers';
+import { convertJsonDates } from './helpers/date';
 
 @Injectable()
 export class JsonDateHttpInterceptor implements HttpInterceptor {
